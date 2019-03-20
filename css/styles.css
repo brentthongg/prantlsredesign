@@ -1,0 +1,282 @@
+/* Overall website style information */
+
+/* Import font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	color: black;
+}
+
+#container {
+	width: 70%;
+	margin: 10px auto;
+	padding-top: 2%;
+}
+
+.center-col {
+	float: none;
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.75em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.w5em;
+}
+
+/* Navigation bar and logo */
+
+nav a {
+	text-decoration: none;
+	font-size: 1.125em;
+	font-weight: 400;
+	padding: 15px;
+	color: black;
+}
+
+nav li {
+	padding-left: 12px;
+}
+
+nav a.active {
+	color: #00a665;
+}
+
+nav a:hover {
+	color: #00a665;
+}
+
+.logo {
+	width: 125px;
+	height: auto;
+}
+
+/* Containers for Index Page */
+
+.torte-container {
+	background-color: #f0f0f0;
+	padding-left: 40px;
+}
+
+.torte-text {
+	padding-left: 50px;
+}
+
+.torte-text h1, .torte-text h2, .torte-text h3 {
+	text-align: left;
+}
+
+.wedding-container {
+	background-color: white;
+	padding-left: 40px;
+}
+
+.wedding-image {
+	width: 560px;
+}
+
+.wedding-text h1, .wedding-text h2, .wedding-text h3 {
+	text-align: left;
+}
+
+.history-container {
+	background-color: #f0f0f0;
+	padding-left: 40px;
+}
+
+.history-image {
+	width: 560px;
+	height: auto;
+}
+
+.history-text {
+	padding-left: 50px;
+	padding-right: 25px;
+}
+
+.history-text h1, .history-text h2, .history-text h3 {
+	text-align: left;
+}
+
+.article-images {
+	display: inline-block;
+}
+
+.article-images a {
+	text-decoration: none;
+}
+
+.article-text {
+	padding-left: 50px;
+}
+
+.article-text h2 {
+	text-align: left;
+}
+
+.resize-left {
+	box-sizing: border-box;
+	width: 275px;
+	height: auto;
+	padding-left: 75px;
+}
+
+.resize-right {
+	box-sizing: border-box;
+	width: 275px;
+	height: auto;
+	padding-left: 75px;
+}
+
+.resize {
+	width: 48px;
+	height: 48px;
+}
+
+.social-media {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.social-media a:hover {
+	text-decoration: none;
+}
+
+/* Footer */
+footer {
+	background-color: #007548;
+	color: white;
+	text-align: center;
+}
+
+/* Contact Page */
+
+.contact-images img {
+	width: 480px;
+	height: auto;
+}
+
+
+/* Menu Page */
+
+.bread-text li {
+	list-style-type: none;
+}
+
+.menu-header p {
+	text-align: center;
+}
+
+/* Contact In store Page */
+
+.shadyside h2 {
+	text-align: left;
+}
+
+.downtown h2 {
+	text-align: left;
+}
+
+/* History */
+
+.reducePic {
+	display: block;
+	width: 750px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Responsiveness */
+
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		font-size: 100%;
+		background-color: #f2f2f2;
+	}
+
+	#container {
+		width: 100%;
+		float: left;
+		margin: 0;
+		padding: 1em;
+		border-right: none;
+	}
+
+	.logo {
+		display: block;
+		width: 95%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 25px;
+	}
+
+	#container h1 {
+		font-size: 2em;
+		margin: 0;
+	}
+
+	#container h2 {
+		font-size: 1.5em;
+		margin: 0;
+	}
+
+	#container h3 {
+		font-size: 1em;
+		margin: 0;
+	}
+
+	#container ul {
+		display: none;
+	}
+
+
+	.torte-container {
+		background-color: #f2f2f2;
+	}
+
+	#container iframe {
+		width: 100%;
+		height: auto;
+	}
+
+	footer {
+		font-size: .7em;
+		background-color: #f2f2f2;
+		color: black;
+	}
+
+	.wedding-container {
+		background-color: #f2f2f2;
+	}
+
+	.history-container {
+		background-color: #f2f2f2;
+	}
+	.article-images img {
+		padding-bottom: 10px;
+	}
+}
+

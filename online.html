@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+
+    <meta charset="utf-8">
+    <meta name = "author" content = "Brent Hong">
+    <meta name = "keywords" content = "Prantl's Bakery">
+    <meta name = "description" content = "Prantl's Bakery Website">
+
+    <!-- Link the favicon.ico -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+    <!-- Required meta tags for javascript -->
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity = "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin = "anonymous">
+
+    <!-- Link the style sheet -->
+    <link rel = "stylesheet" media = "all" type = "text/css" href = "css/styles.css">
+    <link rel = "stylesheet" media = "all" type = "text/css" href = "css/jquery-ui.css">
+    <link rel = 'stylesheet' media = "all" type = "text/css" href = "css/jquery.lightbox.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src = "https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin = "anonymous"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity = "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin = "anonymous"></script>
+    <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity = "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin = "anonymous"></script>
+    <script src = "js/scripts.js"></script>
+
+    <title>Prantl's Bakery - Contact (In Store)</title>
+
+  </head>
+
+  <body>
+    <div id = "container">
+        <nav class="navbar">
+          <a class = "navbar-brand" href = "index.html">
+            <img src = "./images/logo.png" alt = "logo" class = "logo">
+          </a>
+
+          <ul class = "nav justify-content-center">
+            <li class = "nav-item">
+              <a class = "nav-link" href = "index.html">Home</a>
+            </li>
+
+            <li class = "nav-item">
+              <a class = "nav-link" href = "menu.html">Menu</a>
+            </li>
+
+            <li class = "nav-item">
+              <a class = "nav-link active" href = "contact.html">Contact</a>
+            </li>
+
+            <li class = "nav-item">
+              <a class = "nav-link" href = "order.html">Order</a>
+            </li>
+
+            <li class = "nav-item">
+              <a class = "nav-link" href = "data.html">Data</a>
+            </li>
+          </ul>
+        </nav>
+        
+        <h1>Online Contact Form</h1>
+        <h3>Let's keep in touch :)</h3>
+
+        <br><br>
+
+        <form onsubmit="return validateOnline()">
+          <label>Name*</label><br>
+          <input type="text" name="name" size = 20 maxlength = 250>
+          <br><br>
+
+          <label>Phone number (only numbers, no dashes or parentheses):</label><br>
+          <input type="text" id="phone">
+          <br><br>
+
+          <label>Email*</label><br>
+          <input type="email" name="email" size = 20 maxlength = 250 required>
+          <br><br>
+
+          <label>Zip Code</label><br>
+          <input type = "text" id = "zip">
+          <br><br>
+
+          <label>Message</label><br>
+          <textarea name="message" rows="10" cols="50" maxlength = 1000></textarea>
+          <br><br>
+
+          <label>Want to join the mailing list and get exclusive access to deals?</label>
+          <br>
+          <input type="checkbox" name = "yes" value = "YesUpdate"> Yes, please update me!
+          <br><br>
+
+          <button type="submit" class="btn btn-outline-success">Submit</button>
+        </form>
+
+
+    </div>
+    <br><br>
+
+    <footer>
+      <br>
+      Copyright All Rights Reserved &copy; 2019 Prantl's Bakery
+      <br><br>
+    </footer>
+
+  </body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
